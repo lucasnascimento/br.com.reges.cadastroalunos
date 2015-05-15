@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/novo"
+        android:icon="@drawable/ic_novo"
+        android:title="Novo"/>
+    <item
+        android:id="@+id/receber"
+        android:icon="@drawable/ic_receber"
+        android:title="Receber Novos Alunos"/>
+    <item
+        android:id="@+id/notificar"
+        android:icon="@drawable/ic_receber"
+        android:title="Notificar"/>
+    <item
+        android:id="@+id/preferencias"
+        android:icon="@drawable/ic_preferencias"
+        android:title="Preferências"/>
+
+</menu>
