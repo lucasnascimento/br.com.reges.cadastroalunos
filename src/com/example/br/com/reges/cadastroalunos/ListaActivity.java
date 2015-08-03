@@ -153,11 +153,9 @@ public class ListaActivity extends ActionBarActivity {
 			@Override
 			public boolean onMenuItemClick(MenuItem item) {
 
+				//Exemplo de uso para chamar a tela de Discagem
 				Intent irParaTelaDeDiscagem = new Intent(Intent.ACTION_CALL);
-
-				irParaTelaDeDiscagem.setData(Uri.parse("tel:"
-						+ aluno.getTelefone()));
-
+				irParaTelaDeDiscagem.setData(Uri.parse("tel:123456789"));
 				startActivity(irParaTelaDeDiscagem);
 
 				return false;
